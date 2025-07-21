@@ -1,3 +1,15 @@
+
+/* Minimum dependencies needed in order to run a React app */
+dependencies:   // These are testing lbraries
+    //read-scripts: pacakge helper: scripts generate new "scripts"
+    read start Take files and run em in a local environment to test
+    react is an engine for how these things are built
+    React dom specifies that its a web applicaiton
+    
+Functional components: Hooks
+Class components
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

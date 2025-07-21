@@ -1,0 +1,14 @@
+/*The reason we keep css files here 
+is more for coder readability. Keep 
+relevant stuff here, but it will affect 
+other things you do*/
+
+.search-box{
+  /* -webkit-appearance: none; */
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 150px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
