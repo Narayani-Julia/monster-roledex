@@ -16,8 +16,8 @@ root.render(
   <React.StrictMode> 
     {/*StrictMode makes sure that its using not deprecated things
     Best Practice, catches weird behaviour in additional calls */}
-    {/* <App /> */}
-    <FunctionalComponentApp/>
+    <App />
+    {/* <FunctionalComponentApp/> */}
   </React.StrictMode>
   
 )

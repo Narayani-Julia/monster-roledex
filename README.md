@@ -80,3 +80,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## How to add something into git
+- git init
+- git add .
+- git commit -m
+- git branch -M main
+- git remote add origin <insert github repo link here>
+
+#Typescript
+- [https://create-react-app.dev/docs/adding-typescript/](https://create-react-app.dev/docs/adding-typescript/)
+- add a tsconfig.json file into root folder
+
+# Step 2: Migrating application to typescript
+- syntax:
+- const name: string = ''
+- types can use unions
+- syntax: type name = {}
+- interface usually fr class components: interface name {}, combine interfaces and extend
++ Look at data you are recieving
++ API calls?
+
+
+# NOTE: create react app has babbel working underneath and this means that it actually helps you in understanding that there is 

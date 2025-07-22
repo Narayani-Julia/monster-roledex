@@ -1,7 +1,13 @@
 import { Component } from "react"
-import './functional-card.styles.css'
+import { Monster } from "../../FunctionalComponentApp"
+import FunctionalMonsterList from "./FunctionalMonsterList"
 
-const FunctionalMonsterTile = ({monster: {id, name, email}}) => {
+type TileProps = {
+    monster: Monster
+};
+
+const FunctionalMonsterTile = ({monster}: TileProps) => {
+    const {id, name, email} = monster;
     return (
     <div className = 'functional-card-container' key = {id}>
             
